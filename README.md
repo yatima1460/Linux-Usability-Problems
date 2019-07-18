@@ -19,9 +19,10 @@ This is a curated list of all Linux usability problems on distros intended for t
     - Chrome still has screen tearing in 2019...
       - Workaround: chrome://flags/ and enable `Override software rendering list`
   - GTK File Picker
-    - The issue about the GTK file picker not having thumbnails is 15 years that is open
+    - https://gitlab.gnome.org/GNOME/gtk/issues/233
+      - The issue about the GTK file picker not having thumbnails is 15 years that is open
       - Workaround: none with vanilla distro
-    - Deepin and KDE use a modified GTK version, that's why thumbnails are shown there
+      - Deepin and KDE use a modified GTK version, that's why thumbnails are shown there
 
  # Fedora 30
   - Fonts:
