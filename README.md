@@ -25,11 +25,14 @@ Use a hierarchical style, from low level to high level if the OS stack is releva
      - Back in the day I remember of how a photographer wouldn't use Linux only for this problem, he couldn't see the thumbnails of the photos he had to upload
      - Workaround: none with vanilla distro
      - Deepin and KDE use a modified GTK version, that's why thumbnails are shown there
- - `xdg-open` doesn't have a standard to open a folder where a file is contained and select that file
-   - Solution: purge extended xdg-open or create a new modern standard
- - File associations are a mess, there isn't a standard on where and how they are saved
- - `.desktop` files can't run binaries with Exec or TryExec but only shell scripts
-    - Workaround: use a proxy shell script to run the exe, still pretty stupid in 2019
+ - Freedesktop.org
+   - File associations:
+     - `xdg-open`,`exo-open`,etc..
+       - `xdg-open` doesn't have a standard to open a folder where a file is contained and select that file
+         - Solution: extend xdg-open or create a new modern standard
+       - File associations are a mess, there isn't a standard on where and how they are saved
+   - `.desktop` files can't run binaries with Exec or TryExec but only shell scripts
+      - Workaround: use a proxy shell script to run the exe, still pretty stupid in 2019
  - Password prompt for sudo operations should be optional and replaced with a [YES/NO] dialog like on Windows with UAC
    - Solution: During install a user can choose if to keep the password dialog or the messagebox dialog
  - GNOME:
