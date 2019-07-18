@@ -25,7 +25,7 @@ Use a hierarchical style, from low level to high level if the OS stack is releva
      - Workaround: none with vanilla distro
      - Deepin and KDE use a modified GTK version, that's why thumbnails are shown there
  - Password prompt for sudo operations should be optional and replaced with a [YES/NO] dialog like on Windows with UAC
-   - During install a user can choose if to keep the password dialog or the messagebox dialog
+   - Solution: During install a user can choose if to keep the password dialog or the messagebox dialog
  - GNOME:
    - Activities Overview
      - Right click should show a contextual menu, not open the app
