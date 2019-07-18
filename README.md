@@ -43,7 +43,8 @@ Use a hierarchical style, from low level to high level if the OS stack is releva
    - Activities Overview
      - Right click should show a contextual menu, not open the app
      - Middle click should close, not open app
-   - Middle click on every panel should start a new instance
+   - Middle click on app icons on every panel should start a new instance
+   - Right clicking the clock should show Time/Date settings, not open it
    - Tray icon should be re-added
      - Workaround: KStatusNotifierItem/AppIndicator Support extension for GNOME
  - Wine
