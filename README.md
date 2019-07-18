@@ -36,6 +36,8 @@ Use a hierarchical style, from low level to high level if the OS stack is releva
  - Password prompt for sudo operations should be optional and replaced with a [YES/NO] dialog like on Windows with UAC
    - Solution: During install a user can choose if to keep the password dialog or the messagebox dialog
  - GNOME:
+   - Screenshot tool icon should show by default on the top bar
+     - There is a lot of space, it's small, and very useful
    - Show minimize, maximize and close buttons all on the right right a sane UI
      - Workaround: enable this using GNOME Tweaks
    - Activities Overview
