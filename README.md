@@ -18,15 +18,23 @@ Use a hierarchical style, from low level to high level if the OS stack is releva
 
 
 # Global
+ 
  - GTK File Picker
    - https://gitlab.gnome.org/GNOME/gtk/issues/233
      - The issue about the GTK file picker not having thumbnails is 15 years that is open
      - Back in the day I remember of how a photographer wouldn't use Linux only for this problem, he couldn't see the thumbnails of the photos he had to upload
      - Workaround: none with vanilla distro
      - Deepin and KDE use a modified GTK version, that's why thumbnails are shown there
+ - xdg-open doesn't have a standard to open a folder where a file is contained and select that file
+   - Solution: purge extended xdg-open or create a new modern standard
+ - File associations are a mess, there isn't a standard on where and how they are saved
+ - .desktop files can't run binaries with Exec or TryExec but only shell scripts
+    - Workaround: use a proxy shell script to run the exe, still pretty stupid in 2019
  - Password prompt for sudo operations should be optional and replaced with a [YES/NO] dialog like on Windows with UAC
    - Solution: During install a user can choose if to keep the password dialog or the messagebox dialog
  - GNOME:
+   - Show minimize, maximize and close buttons all on the right right a sane UI
+     - Workaround: enable this using GNOME Tweaks
    - Activities Overview
      - Right click should show a contextual menu, not open the app
      - Middle click should close, not open app
@@ -46,6 +54,7 @@ Use a hierarchical style, from low level to high level if the OS stack is releva
             - Workarounds: 
               - chrome://flags/ and enable `Override software rendering list`, works often
               - Distros should purge Xorg and use https://github.com/NVIDIA/egl-wayland
+ - The software install window both on Debian and Fedora show "License: Proprietary" when installing local packages
 
 
 # Fedora 30
