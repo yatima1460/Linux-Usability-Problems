@@ -8,7 +8,7 @@ This is a curated list of all Linux usability problems on distros intended for t
 
 # Contributing
 
-Use a hierarchical style, from low level to high level of the OS stack, or to add more detail to the usability problem, example:
+Use a hierarchical style, from low level to high level if the OS stack is relevant, or to add more detail to the usability problem, example:
 
 - NVIDIA GPU
   - Nouveau
@@ -18,6 +18,12 @@ Use a hierarchical style, from low level to high level of the OS stack, or to ad
 
 
 # Global
+ - GTK File Picker
+   - https://gitlab.gnome.org/GNOME/gtk/issues/233
+     - The issue about the GTK file picker not having thumbnails is 15 years that is open
+     - Back in the day I remember of how a photographer wouldn't use Linux only for this problem, he couldn't see the thumbnails of the photos he had to upload
+     - Workaround: none with vanilla distro
+     - Deepin and KDE use a modified GTK version, that's why thumbnails are shown there
  - Password prompt for sudo operations should be optional and replaced with a [YES/NO] dialog like on Windows with UAC
    - During install a user can choose if to keep the password dialog or the messagebox dialog
  - GNOME:
@@ -29,15 +35,18 @@ Use a hierarchical style, from low level to high level of the OS stack, or to ad
      - Workaround: KStatusNotifierItem/AppIndicator Support extension for GNOME
  - Wine
    - Drawing tablets still not work after 11 years, wintab32.dll needs to be fixed
+     - It's pointless to have a Platinum running photoshop if drawing tablets are broken
+     - Confirmed that Huion tablets DO NOT WORK AT ALL with Wine
      - Workaround: try to set wintab32.dll as native, but it will probably not work
- - Xorg
-   - Chrome still has screen tearing in 2019...
-     - Workaround: chrome://flags/ and enable `Override software rendering list`
- - GTK File Picker
-   - https://gitlab.gnome.org/GNOME/gtk/issues/233
-     - The issue about the GTK file picker not having thumbnails is 15 years that is open
-     - Workaround: none with vanilla distro
-     - Deepin and KDE use a modified GTK version, that's why thumbnails are shown there
+ - NVIDIA
+    - nouveau and non-free drivers
+      - Xorg
+        - Chrome
+          - Screen tearing in 2019...
+            - Workarounds: 
+              - chrome://flags/ and enable `Override software rendering list`, works often
+              - Distros should purge Xorg and use https://github.com/NVIDIA/egl-wayland
+
 
 # Fedora 30
  - Fonts:
