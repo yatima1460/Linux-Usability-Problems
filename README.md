@@ -52,6 +52,7 @@ Use a hierarchical style, from low level to high level if the OS stack is releva
  - Fonts:
    - Japanese language doesn't show in Chrome
    - Emojies don't show in Chrome
+   - Sometimes on a clean install fonts on terminal are distorted???
  - EGL-Wayland:
    - GNOME:
      - Rarely crashes with NVIDIA forcing a logout and returning to GDM3
