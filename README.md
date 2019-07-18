@@ -8,7 +8,9 @@ This is a curated list of all Linux usability problems on distros intended for t
 
  # Global
   - GNOME:
-    - Middle click on Activity View should close the app, not open it
+    - Activities Overview
+      - Right click should show a contextual menu, not open the app
+      - Middle click should close, not open app
     - Middle click on every panel should start a new instance
     - Tray icon should be re-added
       - Workaround: KStatusNotifierItem/AppIndicator Support extension for GNOME
