@@ -36,9 +36,10 @@ This is a curated list of all Linux usability problems on distros intended for t
       - GNOME doesn't honor `GTK_WIN_POS_CENTER`, GTK windows that are set to be centered on screen aren't actually centered
       
 # Debian 10
-  - Nouveau:
-    - EGL-Wayland:
-      - Mouse lags
-      - Keyboard lags
+  - NVIDIA 980Ti
+    - Nouveau:
+      - EGL-Wayland:
+        - Mouse lags
+        - Keyboard lags
 
 
